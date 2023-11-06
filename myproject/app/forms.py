@@ -13,4 +13,3 @@ class UniversalModelForm(forms.ModelForm):
             field = self.fields[field_name]
             field.widget.attrs['class'] = 'form-control'
             field.widget.attrs['style'] = 'width: 250px;'
-

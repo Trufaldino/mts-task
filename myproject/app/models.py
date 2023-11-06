@@ -17,3 +17,4 @@ class ModelC(models.Model):
     c_one = models.CharField(max_length=255)
     c_two = models.CharField(max_length=255)
     c_three = models.CharField(max_length=255)
+    
